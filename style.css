@@ -1,0 +1,204 @@
+body{
+	background-color: #C5E4E7;
+	margin: 0;
+}
+
+#logo{
+	margin:100px auto 50px;
+	color:#3D6666;
+	text-align: center;
+}
+.calcute-card{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width:60%;
+	margin:20px auto;
+	background-color: #fff;
+	border-radius: 10px;
+	
+}
+
+#col-right{
+	display: flex;
+	flex-direction: column;
+	background-color:#00474B;
+	padding:20px;
+	border-radius: 10px;
+	width:50%;
+	margin: 10px;
+
+}
+#col-right-1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#col-right-2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#bill{
+	background-color: #F3F9FA;
+	border: 0;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: right;
+	width:95%;
+	background-image:url(images/icon-dollar.svg);
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-position-x: 3%;
+	
+}
+#input-num{
+	background-color: #F3F9FA;
+	border: 0;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: right;
+	width:95%;
+	background-image:url(images/icon-person.svg);
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-position-x: 3%;
+}
+
+#col-left h6{
+	margin:10px ;
+	font-family: Space Mono;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+text-align: left;
+color: #5E7A7D;
+
+
+}
+
+#col-left{
+	width: 50%;
+	padding: 20px;
+	
+}
+#col-left button{
+	
+background-color: #00474B;
+padding:10px 20px;
+border-radius: 5px;
+border:0;
+width: 90px;
+margin: 5px 10px;
+color: #fff;
+cursor:grabbing;
+}
+
+#col-left button:hover{
+
+background-color: #9FE8DF;
+}
+#custom{
+	background-color: #F3F9FA;
+	border: 0;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: right;
+	width: 70px;
+	margin: 5px 10px;
+	border:solid 1px #F3F9FA;
+
+}
+
+#custom:hover{
+	border:solid 1px #9FE8DF;
+	
+}
+#col-right h4{
+	color:#fff;
+}
+#col-right h6{
+	color:#7F9D9F;
+}
+#col-right-3 button{
+	background-color: #9FE8DF;
+	color:#00474B;
+	border-radius: 5px;
+	border:0;
+	width: 100%;
+	padding: 10px ;
+
+}
+#col-right-3 button:focus{
+	background-color: #26C2AE;
+}
+#col-right-3 button:hover{
+	background-color: #9FE8DF;
+}
+#col-right h2{
+	text-align: right;
+	color: 	#9FE8DF;
+	
+
+}
+#col-right h2::before{
+	content: url(images/icon-dollar.svg);
+	margin-right: 10px;
+}
+#billerror{
+	visibility: hidden;
+	color: #e17457 !important;
+	float:right;
+	
+}
+#numerror{
+	visibility: hidden;
+	color: #e17457 !important;
+	float:right;
+	
+}
+.in{
+	display:inline;
+}
+#cen{
+	margin: 5px auto;
+	text-align: center;
+}
+@media (max-width:768px){
+	.calcute-card{
+		display: flex;
+		flex-direction: column;
+		width:100%;
+		border-radius: 30px;
+		
+	}
+	
+	#col-right{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		background-color:#00474B;
+		padding:30px;
+		border-radius: 10px;
+		width:80%;
+		margin: 20px;
+
+	}
+	
+	#col-left{
+		width: 90%;
+		padding: 20px;
+		
+	}
+	#col-left button{
+
+	width: 40%;
+	
+	}
+	#custom{
+		
+		width:37%;
+
+	}
+
+}

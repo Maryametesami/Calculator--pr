@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link rel="stylesheet" href="style.css">
+<script src="scripts.js"></script>
+</head>
+
+<body>
+	<div id="logo">
+		<img src="images/logo.svg">
+	</div>
+	<div class="calcute-card">
+		<div id="col-left">
+			<h6 class="in">Bill</h6><h6 id="billerror" class="in">cant be zero</h6>
+			<input id="bill" type="text" name="bill" value="" placeholder="0" onblur="cal()" required>
+			<h6 id="tip">select tip %</h6>
+			<div id="cen">
+			<button  onClick="perr(5)">5%</button>
+			<button  onClick="perr(10)">10%</button>
+			<button  onClick="perr(15)">15%</button>
+		
+			<button  onClick="perr(25)">25%</button>
+			<button  onClick="perr(50)">50%</button>
+			<input type="text" id="custom" value="" placeholder="custom" onblur="call()"> 
+		</div>
+			
+			<h6 id="num" class="in">number of people</h6><h6 id="numerror" class="in">cant be zero</h6>
+			<input type="text" id="input-num" placeholder="0" onblur="cal()" required>
+		
+		</div>
+		<div id="col-right">
+			<div id="col-right-1">
+				<div>
+					<h4>Tip Amount</h4>
+					<h6>/ person</h6>
+				</div>
+				<div>
+					<h2 id="tamount">0</h2>
+				</div>
+			</div>
+			<div id="col-right-2">
+				<div>
+					<h4>Total</h4>
+					<h6>/ person</h6>
+				</div>
+				<div>
+					<h2 id="total">0</h2>
+
+				</div>
+			
+			</div>
+			<div id="col-right-3">
+				<button onClick="res()">RESET</button>
+			</div>	
+		</div>
+	
+	</div>
+</body>
+</html>

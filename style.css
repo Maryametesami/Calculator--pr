@@ -66,7 +66,7 @@ body{
 }
 
 #col-left h6{
-	margin:10px ;
+	margin:5px ;
 	font-family: Space Mono;
 font-size: 16px;
 font-style: normal;
@@ -88,12 +88,19 @@ background-color: #00474B;
 padding:10px 20px;
 border-radius: 5px;
 border:0;
-width: 90px;
-margin: 5px 10px;
+width: 31%;
+margin-top: 5px;
 color: #fff;
 cursor:grabbing;
 }
-
+#col-left button:nth-child(2){
+	margin-right:5px;
+	margin-left:5px;
+}
+#col-left button:nth-child(5){
+	margin-right:5px;
+	margin-left:5px;
+}
 #col-left button:hover{
 
 background-color: #9FE8DF;
@@ -104,9 +111,9 @@ background-color: #9FE8DF;
 	border-radius: 5px;
 	padding: 10px;
 	text-align: right;
-	width: 70px;
-	margin: 5px 10px;
+	width: 26%;
 	border:solid 1px #F3F9FA;
+	margin-top: 5px;
 
 }
 
@@ -192,13 +199,26 @@ background-color: #9FE8DF;
 	}
 	#col-left button{
 
-	width: 40%;
+	width: 47%;
+	
 	
 	}
 	#custom{
 		
-		width:37%;
+		width:41%;
+		margin-right:5px;
+		margin-left:5px;
 
 	}
+	#col-left button:nth-child(4){
+		margin-right:5px;
+		margin-left:5px;
+	}
+	#col-left button:nth-child(5){
+		margin-right:0px;
+		margin-left:0px;
+	}
+
 
 }
+

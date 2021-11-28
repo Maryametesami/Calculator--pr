@@ -30,7 +30,7 @@ x = bill / num;
 
 tamount = x*(per/100);
 document.getElementById("tamount").innerHTML = (tamount);
-document.getElementById("total").innerHTML = (x-tamount);
+document.getElementById("total").innerHTML = (x+tamount);
 }	
 function cal(){
 	
@@ -60,7 +60,7 @@ x = bill / num;
 
 tamount = x*(per/100);
 document.getElementById("tamount").innerHTML = (tamount);
-document.getElementById("total").innerHTML = (x-tamount);
+document.getElementById("total").innerHTML = (x+tamount);
 
 }
 function call(){
@@ -91,7 +91,7 @@ x = bill / num;
 
 tamount = x*(per/100);
 document.getElementById("tamount").innerHTML = (tamount);
-document.getElementById("total").innerHTML = (x-tamount);
+document.getElementById("total").innerHTML = (x+tamount);
 
 }
 

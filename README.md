@@ -6,6 +6,8 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+   - [Screenshot](#screenshot)
+     - [Links](#links)
    - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 
@@ -23,6 +25,13 @@ Users should be able to:
 
 
 
+### Screenshot
+
+![](images/1.jpg)
+### Links
+
+
+- Live Site URL: [Add live site URL here](https://maryametesami.github.io/Calculator--pr/)
 
 ### Built with
 
